@@ -5,6 +5,7 @@
 .text {
   position: absolute;
   color: green;
+  font-size: 70px
 }
 
 .centerText {

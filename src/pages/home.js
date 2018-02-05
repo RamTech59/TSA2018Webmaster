@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
 import ParticleSettings from '../utils/particleSettings'
+import Typed from 'react-typed';
 
 class Home extends Component {
   centerText = {
@@ -18,7 +19,15 @@ class Home extends Component {
           canvasClassName="particles"
         />
         <div style={this.centerText}>
-          <h1 className='text'>Company Name Goes Here</h1>
+        <Typed
+          strings={['We make robots that do things', 'We make robots that do other things', 'We make robots that do even more things']}
+          typeSpeed={60}
+          backSpeed={1}
+          backDelay={1000}
+          onComplete={(a) => {a.stop()}}
+          loop
+          className='text'
+        />
         </div>
       </div>
     );
