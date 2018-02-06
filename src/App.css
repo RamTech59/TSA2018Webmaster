@@ -5,7 +5,8 @@
 .text {
   position: absolute;
   color: green;
-  font-size: 70px
+  font-size: 70px;
+  background-color: rgba(246, 255, 77,1);
 }
 
 .centerText {
@@ -15,7 +16,29 @@
 }
 
 .particles {
+  background-image: url('https://www.naturalnews.com/wp-content/uploads/sites/91/2017/07/Store-Shelves-Food.jpg');
+  background-repeat: round;
   position: absolute;
   background-color: #000;
   z-index: 0;
+}
+
+.box {
+  width: 50%;
+  height: 70%;
+  position: absolute;
+  margin-top: 10%;
+  background-color: rgba(255, 183, 77, 0.75);
+  border: 5px solid;
+  border-color: #FF5722;
+  padding: 10px;
+}
+
+.desc {
+  text-align: justify;
+  display: table-row;
+  padding: 10px;
+  max-width: 10%;
+  word-wrap: unset;
+  font-size: 15pt;
 }

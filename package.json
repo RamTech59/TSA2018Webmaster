@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@trendmicro/react-navbar": "^0.2.6",
+    "material-ui": "^0.20.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-particles-js": "^2.1.0",
     "react-scripts": "1.1.0",
+    "react-sticky": "5",
     "react-typed": "^1.0.8"
   },
   "scripts": {
