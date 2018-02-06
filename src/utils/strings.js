@@ -13,12 +13,105 @@ export function description(route) {
   <li>Robots can use data collected by the A.I from other stores</li>
 </ul>)]
   } else if (route === 'tech') {
-    return ['', '']
+    return ['The E-Shelfer is equipped with top of the line tech ranging from AMD Zen II cpu powering the brain (SelfShelf) to the proximity sensors guiding the robot along the shelves and around the store.',
+    (
+      <span>
+      <span>Specifications:</span><br/>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp; Cpu: Zen II 1337X</span><br/>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp; Proximity Sensors: 8</span><br/>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp; Lighting: Dual Xeon Flash</span><br/>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp; Ram: 32GB (expandable to 256GB)</span><br/>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp; Battery: 100 AmpHour battery (24-30 hours)</span><br/>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp; Camera: 360 camera</span><br/>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp; Scanner: 16 megapixel camera</span>
+      </span>
+    )]
   } else if (route === 'liabilities') {
     return ['Our company is no liable for injuries caused by incorrect use of robot and or A.I. In the case where someone would hurt themselves by running into the E-Shelfer we are not liable. We will take responsibility for injuries or damages done by the Robot If the robot was not damaged or misused in such a way that the user got hurt. Any loses or mistakes By our A.I software that would lead to losses to the store will attended to and a fixed with a patch to the software, But our company will not take further action on the matter.', <span style={{textAlign:'left', fontSize: '12pt'}}>If you run into any problems with our robots,<br/> Please Call: 123456789 or Email: dank@memes.com</span>]
   } else if (route === 'safety') {
-    return ['', '']
+    return ['The E-Shelfer is equipped with a multitude of sensors with productivity in mind, but safety is also held at the utmost concern. Are A.I is programmed to avoid people and reduce the severity of a accident if one is to occur. An Example of a feature we have implemented slows the robot as it rounds a corner to allow human elements to react to the robot in time. The Dual Xeon Flash on the E-Shelfer is another safety hazard that we have preventative measures to insure nobody get blinded by the flash, this is accomplished by having a 360 camera check for people so that the scanner does not flash their face. ', '']
   } else if (route === 'costs') {
-    return ['', '']
+    return ['The Total cost of the robot itself would be $2000 before taxes. The A.I will set you back $500 for your initial licence with a yearly fee of $100 after the first year, this fee goes toward updates and maintenance of software.',
+    <span>
+      <span className="table">First year cost:</span><br/>
+      <table className="table">
+        <tr>
+          <td>Robot -</td>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <td>$2000</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>A.I -</td>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <td>$500</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Total  -</td>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <td>$2500</td>
+          <td>(before taxes if they apply)</td>
+        </tr>
+      </table>
+      <br/>
+      <span className="table">Cost for minimum expected life expectancy of hardware (10 years):</span><br/>
+      <table className="table">
+        <tr>
+          <td>Robot -</td>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <td>$2000</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>A.I licence -</td>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <td>$500</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>A.I Yearly Fee -</td>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <td>$900</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Total -</td>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <td>$3400</td>
+          <td>(before taxes if they apply)</td>
+        </tr>
+      </table>
+      <br/>
+      <span className="table">Cost for Maximum expected life expectancy of hardware (20 years):</span><br/>
+      <table className="table">
+        <tr>
+          <td>Robot -</td>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <td>$2000</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>A.I licence -</td>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <td>$500</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>A.I Yearly Fee -</td>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <td>$1900</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Total -</td>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <td>$4400</td>
+          <td>(before taxes if they apply)</td>
+        </tr>
+      </table>
+    </span>
+  ]
   }
 }
