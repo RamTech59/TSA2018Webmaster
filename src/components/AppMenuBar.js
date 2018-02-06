@@ -1,22 +1,11 @@
 import React from 'react';
 import AppBar from 'material-ui/AppBar';
 import HomeIcon from '../utils/homeIcon';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import {indigoA400, cyan400} from 'material-ui/styles/colors';
 import MenuItem from 'material-ui/MenuItem';
 
-const theme = () => {
-  var theme = darkBaseTheme
-  // theme.palette.primary1Color = cyan400
-  theme.palette.alternateTextColor = '#ff5722'
-  theme.palette.primary1Color = '#ffb74d'
-  return theme
-}
 
 const AppMenuBar = (context) => (
-  <MuiThemeProvider muiTheme={getMuiTheme(theme())}>
     <AppBar
       title="Minerva"
       iconElementLeft={<HomeIcon style={{marginTop: '10px'}}/>}
@@ -29,8 +18,7 @@ const AppMenuBar = (context) => (
       <MenuItem primaryText="Costs" style={{ color: '#ff5722', marginTop: '10px' }} onClick={(e) => {context.setState({route: 'costs', strings: ['Our robots are really helpful']})}}/>
       <MenuItem primaryText="TSA" style={{ color: '#ff5722', marginTop: '10px' }} onClick={(e) => {window.location = 'http://coralparktsa.herokuapp.com/'}}/>
       <MenuItem primaryText="CTE" style={{ color: '#ff5722', marginTop: '10px' }} onClick={(e) => {window.location = 'http://www.ramtech59.com/'}}/>
-      </AppBar>
-  </MuiThemeProvider>
+    </AppBar>
 );
 
 export default AppMenuBar;

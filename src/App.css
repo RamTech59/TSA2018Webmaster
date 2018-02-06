@@ -43,6 +43,15 @@
   font-size: 15pt;
 }
 
-.table{
+.table {
   font-size: 10pt;
+}
+
+.openSrc {
+  padding-top: 50%;
+  z-index: 1;
+}
+
+.heart{
+  color:#e25555;
 }

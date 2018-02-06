@@ -5,12 +5,13 @@ import Typed from 'react-typed';
 import AppMenuBar from '../components/AppMenuBar';
 import {indigoA400} from 'material-ui/styles/colors';
 import {description} from '../utils/strings'
+import CodeIcon from '../utils/codeIcon';
 
 
 class Home extends Component {
   constructor(props){
     super(props)
-    //, 'We make robots that stock smarter', 'We make robots that improve sales'
+
     this.state = {
       route: 'default',
       strings: ['Our robot manages your inventory'],
@@ -62,6 +63,13 @@ class Home extends Component {
               {description(this.state.route)[1]}
             </span>
           </div>
+
+          <div className="openSrc">
+            <a href="https://github.com/RamTech59/TSA2018Webmaster">
+              <span>We <span className="heart">❤</span> open source, check us out on GitHub </span>
+            </a>
+          </div>
+
         </div>
       </div>
     );
